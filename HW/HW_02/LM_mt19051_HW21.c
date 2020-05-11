@@ -1,6 +1,6 @@
 //name: Lukas Mehringer
 //student ID: mt19051
-//HW2.1
+//HW21
 //technical support by Henry Bai (mt19078)
 //culinary support by Greta Mehringer
 
