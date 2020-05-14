@@ -12,6 +12,17 @@
 
 int main()
 {
+	double (*funcpointer) (double);
+	funcpointer = func;
+	
+	double (*slope2pointer) (double);
+	slope2pointer = slope2;
+	
+	double (*nrvpointer) (double);
+	nrvpointer = nrv;
+	
+	
+	
 	/* 
 	Teil von versuchsaufbau 
 	printf("%lf\n",slope(8));
@@ -30,7 +41,7 @@ int main()
 	printf("pass:\tfunc val:\tzero pos:\n--------------------------------------\n");
 	
 	inres[2][0]=stval;
-	inres[1][0]=func(stval);
+	inres[1][0]=funcpointer(stval);
 	inres[0][0]=1;
 	
 	printf("%.0lf",inres[0][0]);
@@ -38,7 +49,6 @@ int main()
 	printf("\t%lf",inres[2][0]);
 	
 	/*
-	
 	print and calculate further values 
 	columm		description
 	0 			pass
@@ -50,7 +60,7 @@ int main()
 	do 
 	{
 		inres[2][row] = nrv(inres[2][(row-1)]);
-		inres[1][row] = func (inres[2][row]);
+		inres[1][row] = funcpointer (inres[2][row]);
 		inres[0][row] = (double)(row+1);
 		printf("\n%.0lf",inres[0][row]);
 		printf("\t%lf",inres[1][row]);
