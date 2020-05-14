@@ -6,11 +6,11 @@
 double func(double);
 double slope(double);
 double nrv (double);
-//double slope2(double);
+double slope2(double);
 
 double nrv(double cval)
 {
-	cval -= func(cval)/slope(cval);
+	cval -= func(cval)/slope2(cval);
 	return cval;
 }
 
@@ -33,10 +33,13 @@ je nach potenz ist ergebnis besser/schlechter bis ca -10 stigernde "genauheit" b
 frage gibt es bessere methode?
 if false: wie finde ich die beste groesse für potenz ohne probieren heraus? (sizeof(double) als int gibt 8 zurück fange ich damit was an?)
 
+LOESUNG: Rundungsfehler vs Diskretesierungsfehler optimaler wert ist auch abhängig von grad der Funktion!!!!
+
+*/
+
 double slope2(double x)
 {	
-	double y = (func(x) - func(x+pow(10,-15)))/(-pow(10,-15));
+	double y = (func(x+pow(10,-8)) - func(x))/(pow(10,-8));
 	return y;
 }
 
-*/
