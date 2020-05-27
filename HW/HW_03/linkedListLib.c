@@ -159,7 +159,11 @@ void loadList(listElement *start){
     printf("The action was succsefully! All following names are now in your list:\n");
     printList(start);
 }
-
+/*
+JW-2020-05-27:
+--------------
+> well done (10/10) 
+*/
 
 
 /*
