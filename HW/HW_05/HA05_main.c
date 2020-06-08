@@ -1,3 +1,10 @@
+/*
+Programmed by Lukas Mehringer and Christian Lutz
+Student ID: mt19051
+HW05
+simple explicit euler method
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include "HA05_rhsLib.h"
