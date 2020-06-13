@@ -1,0 +1,43 @@
+Programmieren in C | Jannik Wiessler | 2020-06-11 
+
+Lukas Mehringer Hausaufgabe 06
+Student ID: mt19051 
+
+------------------------------------------------------------------------
+ Multiple Choice:
+ Bitte nach dem jeweiligen Buchstaben die Nummer als Antwort eintragen.
+------------------------------------------------------------------------
+a) 2.
+b) 3.
+c) 3.
+d) 3.
+e) 4.
+f) 2.
+-------------------------------------------------------------
+ Basics:
+ Bitte nach dem jeweiligen Buchstaben die Antwort eintragen.
+-------------------------------------------------------------
+g) 
+
+int i = 533;
+while(i > -12){
+	printf("\%d \textbackslash n", i);
+	i -= 7;	
+}
+
+h)
+
+{1, 3, 5, 0, 9}
+
+--------------------------------------------------------------
+--------------------------------------------------------------
+Hey Jannik,
+
+Könntest du mir noch den Link zu deiner MATLAP Schulung schicken?
+Ich habe jetzt zwar leider noch keine Zeit dafür, würde das aber in der Praxis Phase mal in Angriff nehmen, 
+um da noch nen bisschen fitter zu werden.
+Ich würde die auch gerne bezahlen! Wenn die so gut ist wie deine Vorlesung ist die sicher ihr Geld wert.
+
+Vielen Dank nochmal,
+
+Lukas Mehringer
